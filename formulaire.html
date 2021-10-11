@@ -11,33 +11,28 @@
     <nav>
         <ul>
             <li>
-                <a href="agenda.html">Agenda</a>
+                <a href="agenda.html">Accès à l'agenda</a>
             </li>
         </ul>
-      </nav>
+    </nav>
     <div class=container>
-       
         <center>
-            
-    <h1> Formulaire d'ajout d'évènement</h1></br>
-    <div class="sous_contain">
-    <div id="text"> Nom de l'entrée:</div><div id="input"><input type="text"  maxlength="16" id="align"></div> </br>
-    <div id="text">Date de début:</div><div id="input"><input type="datetime-local" min="2021-01-01T00:00" max="2021-12-31T23:59" id="align"></div> </br>
-    <div id="text">Date de fin:</div><div id="input"><input type="datetime-local" min="2021-01-01T00:00" max="2021-12-31T23:59" id="align"></div> </br>
-    <div id="text">Type d'évènement:</div><div id="input"><select  id="align"></div>
-        <option value="">Veuillez selectionez un type d'évènement:
-        </option>
-            <option value="0">Rappel</option>
-            <option value="1">Rendez-vous</option>
-            <option value="2">Anniversaire</option>
-            <option value="3">Réveil</option>
-        </select> </br>
-
-    </div>
-    <input type="submit" value="Envoyer" onclick="self.location.href='agenda.html'">
-</div>
-</center>
-    
-
+            <h1> Formulaire d'ajout d'évènement</h1></br>
+            <div class="sous_contain">
+                <div id="text"> Nom de l'entrée:</div><div id="input"><input type="text"  maxlength="16" id="align"></div> </br>
+                <div id="text">Date de début:</div><div id="input"><input type="datetime-local" min="2021-01-01T00:00" max="2021-12-31T23:59" id="align"></div> </br>
+                <div id="text">Date de fin:</div><div id="input"><input type="datetime-local" min="2021-01-01T00:00" max="2021-12-31T23:59" id="align"></div> </br>
+                <div id="text">Type d'évènement:</div><div id="input">
+                <select  id="align"></div>
+                    <option value="">Veuillez selectionez un type d'évènement:</option>
+                    <option value="0">Rappel</option>
+                    <option value="1">Rendez-vous</option>
+                    <option value="2">Anniversaire</option>
+                    <option value="3">Réveil</option>
+                </select> </br>
+            </div>
+            <input type="submit" value="Envoyer" onclick="self.location.href='agenda.html'">
+        </div>
+    </center>
 </body>
 </html>
