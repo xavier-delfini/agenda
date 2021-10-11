@@ -10,8 +10,9 @@
 <body>
     <nav>
         <ul>
-          <li >
-            <a href="agenda.html">Agenda</a>
+            <li>
+                <a href="agenda.html">Agenda</a>
+            </li>
         </ul>
       </nav>
     <div class=container>
@@ -20,10 +21,10 @@
             
     <h1> Formulaire d'ajout d'évènement</h1></br>
     <div class="sous_contain">
-    <div id="text"> Nom de l'entrée:</div><input type="text"  maxlength="16" id="align"> </br>
-    <div id="text"></div>Date de début:</div><input type="datetime-local" min="2021-01-01T00:00" max="2021-12-31T23:59" id="align"> </br>
-    <div id="text">Date de fin:</div><input type="datetime-local" min="2021-01-01T00:00" max="2021-12-31T23:59" id="align"> </br>
-    <div id="text">Type d'évènement:</div><select  id="align">
+    <div id="text"> Nom de l'entrée:</div><div id="input"><input type="text"  maxlength="16" id="align"></div> </br>
+    <div id="text">Date de début:</div><div id="input"><input type="datetime-local" min="2021-01-01T00:00" max="2021-12-31T23:59" id="align"></div> </br>
+    <div id="text">Date de fin:</div><div id="input"><input type="datetime-local" min="2021-01-01T00:00" max="2021-12-31T23:59" id="align"></div> </br>
+    <div id="text">Type d'évènement:</div><div id="input"><select  id="align"></div>
         <option value="">Veuillez selectionez un type d'évènement:
         </option>
             <option value="0">Rappel</option>
@@ -37,6 +38,6 @@
 </div>
 </center>
     
-</div>
+
 </body>
 </html>
