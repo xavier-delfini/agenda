@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,13 +8,22 @@
     <title>Formulaire</title>
 </head>
 <body>
+    <nav>
+        <ul>
+          <li >
+            <a href="agenda.html">Agenda</a>
+        </ul>
+      </nav>
     <div class=container>
+       
         <center>
+            
     <h1> Formulaire d'ajout d'évènement</h1></br>
-    Nom de l'entrée:<input type="text" maxlength="16"></br>
-    Date de début:<input type="datetime-local" min="2021-01-01T00:00" max="2021-12-31T23:59"> </br>
-    Date de fin:<input type="datetime-local" min="2021-01-01T00:00" max="2021-12-31T23:59"> </br>
-    Type d'évènement:<select  id="Selec_even">
+    <div class="sous_contain">
+    <div id="text"> Nom de l'entrée:</div><input type="text"  maxlength="16" id="align"> </br>
+    <div id="text"></div>Date de début:</div><input type="datetime-local" min="2021-01-01T00:00" max="2021-12-31T23:59" id="align"> </br>
+    <div id="text">Date de fin:</div><input type="datetime-local" min="2021-01-01T00:00" max="2021-12-31T23:59" id="align"> </br>
+    <div id="text">Type d'évènement:</div><select  id="align">
         <option value="">Veuillez selectionez un type d'évènement:
         </option>
             <option value="0">Rappel</option>
@@ -22,8 +31,12 @@
             <option value="2">Anniversaire</option>
             <option value="3">Réveil</option>
         </select> </br>
+
+    </div>
     <input type="submit" value="Envoyer" onclick="self.location.href='agenda.html'">
-        </center>
+</div>
+</center>
+    
 </div>
 </body>
 </html>
