@@ -4,9 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="agenda.css">
     <title>Formulaire</title>
 </head>
 <body>
+    <div class=container>
+        <center>
     <h1> Formulaire d'ajout d'évènement</h1></br>
     Nom de l'entrée:<input type="text" maxlength="16"></br>
     Date de début:<input type="datetime-local" min="2021-01-01T00:00" max="2021-12-31T23:59"> </br>
@@ -18,8 +21,9 @@
             <option value="1">Rendez-vous</option>
             <option value="2">Anniversaire</option>
             <option value="3">Réveil</option>
-        </select>
+        </select> </br>
     <input type="submit" value="Envoyer" onclick="self.location.href='agenda.html'">
-    
+        </center>
+</div>
 </body>
 </html>
