@@ -1,22 +1,23 @@
-/* CSS global*/
+/* CSS unitifé aux deux pages */
 
 *
   {
   font-family:  -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   
 }
+
 body{
   background-image: url("background.jpg");
   background-repeat: no-repeat;
   background-size: 120%
 }
+
 .container {
   border-radius: 12px;
   background-color: #EEE0CB;
   padding: 33px;
   opacity: 0.95;
 }
-
 
 ul {
 list-style-type: none;
@@ -44,20 +45,17 @@ li a {
 footer{
   text-align: end;
 }
+
 /* CSS agenda.html*/
 
+table {
+  box-shadow: 6px 3px 3px rgb(117, 117, 117);
+}
+
 th, td {
-    
-    margin:2%;
-    text-align: center;
-    width: 10%;
-
-  }
-
-
-
-  table {
-    box-shadow: 6px 3px 3px rgb(117, 117, 117);
+  margin:2%;
+  text-align: center;
+  width: 10%;
 }
 
   /* couleurs agenda*/
@@ -67,15 +65,15 @@ th, td {
 }
 
 #om {
-background-color: #6290C8;
+  background-color: #6290C8;
 }
 
 #code {
-background-color: #302F4D;
+  background-color: #302F4D;
 }
 
 #english{
-background-color: #E3170A;
+  background-color: #E3170A;
 }
 #fr {
   background-color: #05A8AA
