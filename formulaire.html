@@ -1,38 +1,68 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="agenda.css">
-    <title>Formulaire</title>
-</head>
-<body>
-    <nav>
-        <ul>
-            <li>
-                <a href="agenda.html">Accès à l'agenda</a>
-            </li>
-        </ul>
-    </nav>
-    <div class=container>
-        <center>
-            <h1> Formulaire d'ajout d'évènement</h1></br>
-            <div class="sous_contain">
-                <div id="text"> Nom de l'entrée:</div><div id="input"><input type="text"  maxlength="16" id="align"></div> </br>
-                <div id="text">Date de début:</div><div id="input"><input type="datetime-local" min="2021-01-01T00:00" max="2021-12-31T23:59" id="align"></div> </br>
-                <div id="text">Date de fin:</div><div id="input"><input type="datetime-local" min="2021-01-01T00:00" max="2021-12-31T23:59" id="align"></div> </br>
-                <div id="text">Type d'évènement:</div><div id="input">
-                <select  id="align"></div>
-                    <option value="">Veuillez selectionez un type d'évènement:</option>
-                    <option value="0">Rappel</option>
-                    <option value="1">Rendez-vous</option>
-                    <option value="2">Anniversaire</option>
-                    <option value="3">Réveil</option>
-                </select> </br>
-            </div>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="agenda.css">
+        <title>Formulaire</title>
+    </head>
+    <body>
+        <!--Bannière cliquable redirection agenda-->
+        <nav>
+            <ul>
+                <li>
+                    <a href="agenda.html">Accès à l'agenda</a>
+                </li>
+            </ul>
+        </nav>
+        <!--Zone grise-->
+        <div class=container>
+            <center>
+                <!--Formulaire-->
+                <h1> Formulaire d'ajout d'évènement</h1></br>
+                <div class="sous_contain">
+                    <div id="text">
+                        Nom de l'entrée:
+                    </div>
+                    <div id="input">
+                        <input type="text"  maxlength="16" id="align">
+                    </div>
+                    </br>
+                    <div id="text">
+                        Date de début:
+                    </div>
+                    <div id="input">
+                        <input type="datetime-local" min="2021-01-01T00:00" max="2021-12-31T23:59" id="align">
+                    </div>
+                    </br>
+                    <div id="text">
+                        Date de fin:
+                    </div>
+                    <div id="input">
+                        <input type="datetime-local" min="2021-01-01T00:00" max="2021-12-31T23:59" id="align">
+                    </div> 
+                    </br>
+                    <div id="text">
+                        Type d'évènement:
+                    </div>
+                    <select>
+                        <!--Menu déroulant-->
+                        <option>Veuillez selectionez un type d'évènement:</option>
+                        <option value="0">Rappel</option>
+                        <option value="1">Rendez-vous</option>
+                        <option value="2">Anniversaire</option>
+                        <option value="3">Réveil</option>
+                    </select> 
+                    </br>
+                </div>
+            
             <input type="submit" value="Envoyer" onclick="self.location.href='agenda.html'">
+            </div> 
         </div>
     </center>
+    <footer>
+        <p>© 2021 Delfini Xavier</p>
+    </footer>
 </body>
 </html>

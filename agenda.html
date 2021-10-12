@@ -8,25 +8,29 @@
     <title>Agenda</title>
 </head>
 <body>
-    <nav>
-        <ul>
-            <li>
-                <a href="formulaire.html">Accès au formulaire</a>
-            <li
-        </ul>
-    </nav>
-
-    <table>
+    <!--Bannière cliquable redirection formulaire-->
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="formulaire.html">Accès au formulaire</a>
+                <li>
+            </ul>
+        </nav>
+    </header>
+    <div class=container>
+    <center>
+        <h1>Agenda de la semaine</h1>
         <table border="1">
             <tr>
-     <th></th>
-    <th >Lundi</th>
-    <th>Mardi</th>
-    <th>Mercredi</th>
-    <th>Jeudi</th>
-    <th>Vendredi</th>
-    <th>Samedi</th>
-    <th>Dimanche</th>
+        <th></th>
+        <th>Lundi</th>
+        <th>Mardi</th>
+        <th>Mercredi</th>
+        <th>Jeudi</th>
+        <th>Vendredi</th>
+        <th>Samedi</th>
+        <th>Dimanche</th>
             </tr>
             <tr>
                 <td>7:00</td>
@@ -37,7 +41,7 @@
                 <td></td>
                 <td></td>
                 <td></td>
-                        </tr>
+                </tr>
                 <tr>
                     <td>8:00</td>
                     <td></td>
@@ -50,91 +54,85 @@
                 </tr>
                 <tr>
                     <td>9:00</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    <td rowspan="3" id="code">Codage</td>
+                    <td rowspan="3" id="code">Codage</td>
+                    <td rowspan="3" id="code">Codage</td>
+                    <td rowspan="3" id="code">Codage</td>
+                    <td rowspan="3" id="code">Codage</td>
                     <td></td>
                     <td></td>
                 </tr>
                 <tr>
                     <td>10:00</td>
+                    <!-- <td></td>
                     <td></td>
                     <td></td>
                     <td></td>
-                    <td></td>
-                    <td></td>
+                    <td></td> -->
                     <td></td>
                     <td></td>
                 </tr>
                 <tr>
                     <td>11:00</td>
+                    <!-- <td></td>
                     <td></td>
                     <td></td>
                     <td></td>
-                    <td></td>
-                    <td></td>
+                    <td></td> -->
                     <td></td>
                     <td></td>
                 </tr>
                 <tr>
-                    <td id="Midi">12:00</td>
-                    <td id="Midi"></td>
-                    <td id="Midi"></td>
-                    <td id="Midi"></td>
-                    <td id="Midi"></td>
-                    <td id="Midi"></td>
-                    <td id="Midi"></td>
-                    <td id="Midi"></td>
+                    <td >12:00</td>
+                    <td id="midi"colspan="7">Repas </td>
                 </tr>
                 <tr>
                     <td>13:00</td>
-                    <td>English</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    <td id="english">English</td>
+                    <td rowspan="5" id="code">Codage</td>
+                    <td rowspan="5" id="code">Codage</td>
+                    <td rowspan="1" id="code">Codage</td>
+                    <td rowspan="5" id="code">Codage</td>
                     <td></td>
                     <td></td>
                 </tr>
                 <tr>
                     <td>14:00</td>
+                    <td rowspan="4" id="code">Codage</td>
+                    <!-- <td></td>
+                    <td></td>-->
+                    <td id="fr">Français</td>
+                    <!--<td></td>-->
                     <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    <td></td> 
                 </tr>
                 <tr>
                     <td>15:00</td>
+                    <!--<td></td>
                     <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    <td></td>-->
+                    <td rowspan="3" id="code">Codage</td>
+                    <!--<td></td> -->
                     <td></td>
                     <td></td>
                 </tr>
                 <tr>
                     <td>16:00</td>
+                    <!--<td></td>
                     <td></td>
                     <td></td>
                     <td></td>
-                    <td></td>
-                    <td></td>
+                    <td></td>-->
                     <td></td>
                     <td></td>
                 </tr>
                 <tr>
                     <td>17:00</td>
+                    <!--<td></td>
                     <td></td>
                     <td></td>
                     <td></td>
-                    <td></td>
-                    <td></td>
+                    <td></td>-->
                     <td></td>
                     <td></td>
                 </tr>
@@ -176,7 +174,7 @@
                     <td></td>
                     <td></td>
                     <td></td>
-                    <td></td>
+                    <td rowspan="3" id="om">⚽Match OM-Lorient</td>
                 </tr>
                 <tr>
                     <td>22:00</td>
@@ -186,7 +184,7 @@
                     <td></td>
                     <td></td>
                     <td></td>
-                    <td></td>
+                    <!-- <td></td> -->
                 </tr>
                 <tr>
                     <td>23:00</td>
@@ -196,7 +194,7 @@
                     <td></td>
                     <td></td>
                     <td></td>
-                    <td></td>
+                    <!-- <td></td> -->
                 </tr>
                 <tr>
                     <td>0:00</td>
@@ -268,6 +266,11 @@
                     <td></td>
                     <td></td>
                 </tr>
-      </table>
+        </table>
+    </center>
+    </div>
 </body>
+<footer>
+    <p>© 2021 Delfini Xavier</p>
+</footer>
 </html>
